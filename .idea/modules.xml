@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Page_Object_Practice.iml" filepath="$PROJECT_DIR$/.idea/Page_Object_Practice.iml" />
+      <module fileurl="file://$USER_HOME$/studying/SeleiumAutotest/.idea/SeleiumAutotest.iml" filepath="$USER_HOME$/studying/SeleiumAutotest/.idea/SeleiumAutotest.iml" />
     </modules>
   </component>
 </project>

@@ -4,9 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 def pytest_addoption(parser):
-    parser.addoption('--browser_name', action='store', default=None,
+    parser.addoption('--browser_name', action='store', default="chrome",
                      help="Choose browser: chrome or firefox")
-
+    parser.addoption('--language', action='store', default='en', help='Choose language')
 
 @pytest.fixture(scope="function")
 def browser(request):
@@ -30,32 +30,10 @@ def test_guest_should_see_login_link(browser, language):
     browser.get(link)
     browser.find_element(By.CSS_SELECTOR, "#login_link")
 
-def pytest_addoption(parser):
-    """Опции командной строки.
-    В командную строку передается параметр вида '--language="es"'
-    По умолчанию передается параметр, включающий английский интерфейс в браузере
-    """
-    parser.addoption('--language', action='store', default='en', help='Choose language')
 
 
 
 
 
-# Выбор браузера, пока не готово.
 
-#@pytest.fixture(scope="function")
-#def browser(request):
-#    browser_name = request.config.getoption("browser_name")
-#    browser = None
-#    if browser_name == "chrome":
-#        print("\nstart chrome browser for test..")
-#        browser = webdriver.Chrome()
-#    elif browser_name == "firefox":
-#        print("\nstart firefox browser for test..")
-#        browser = webdriver.Firefox()
-#    else:
-#        raise pytest.UsageError("--browser_name should be chrome or firefox")
-#    yield browser
-#    print("\nquit browser..")
-#    browser.quit()
 
