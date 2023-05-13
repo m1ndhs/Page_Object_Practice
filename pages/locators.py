@@ -14,3 +14,4 @@ class ProductPageLocators():
     PRODUCT_PRICE_CHECK = (By.CSS_SELECTOR, "div#messages > .alert.alert-safe.alert-noicon.alert-info.fade.in strong")
     ADD_TO_CART_BUTTON = (By.CSS_SELECTOR, "button.btn.btn-lg.btn-primary.btn-add-to-basket")
     PRICE = (By.CSS_SELECTOR, "div.col-sm-6.product_main > p.price_color")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alertinner")

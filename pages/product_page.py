@@ -22,3 +22,17 @@ class ProductPage(BasePage):
         add_to_basket_button = self.browser.find_element(*ProductPageLocators.ADD_TO_CART_BUTTON)
         add_to_basket_button.click()
 
+    def should_not_be_presented_succes_message(self):
+        assert self.is_not_element_present()(*ProductPageLocators.SUCCESS_MESSAGE), \
+                "Success message is not presented, but should not be"
+
+    def should_see_as_dissapearing_message(self):
+        assert self.is_dissapeared(*ProductPageLocators.SUCCESS_MESSAGE), \
+        "Success message is presented, but should not be"
+
+    def name_should_match(self):
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text == \
+               self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_CHECK).text, "Wrong name for product"
+    def price_should_match(self):
+        assert self.browser.find_element(*ProductPageLocators.PRICE).text == \
+               self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE_CHECK).text, "Wrong price for product"
