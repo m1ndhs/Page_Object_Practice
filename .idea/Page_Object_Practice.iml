@@ -5,6 +5,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="SeleiumAutotest" />
+    <orderEntry type="module" module-name="Selenium_PageObject_main" />
+    <orderEntry type="module" module-name="Selenium_PageObject_main1" />
+    <orderEntry type="module" module-name="page_object_model-for-review-main" />
+    <orderEntry type="module" module-name="Stepik_final_project-main" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="removeUnused" value="true" />

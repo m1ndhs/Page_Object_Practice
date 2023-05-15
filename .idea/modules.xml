@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Page_Object_Practice.iml" filepath="$PROJECT_DIR$/.idea/Page_Object_Practice.iml" />
       <module fileurl="file://$USER_HOME$/studying/SeleiumAutotest/.idea/SeleiumAutotest.iml" filepath="$USER_HOME$/studying/SeleiumAutotest/.idea/SeleiumAutotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../StepikReview/Selenium_PageObject/.idea/Selenium_PageObject_main.iml" filepath="$PROJECT_DIR$/../../StepikReview/Selenium_PageObject/.idea/Selenium_PageObject_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../StepikReview/Selenium_PageObject/.idea/Selenium_PageObject_main1.iml" filepath="$PROJECT_DIR$/../../StepikReview/Selenium_PageObject/.idea/Selenium_PageObject_main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../StepikReview/Stepik_final_project_main/.idea/Stepik_final_project-main.iml" filepath="$PROJECT_DIR$/../../StepikReview/Stepik_final_project_main/.idea/Stepik_final_project-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../StepikReview/page_object_model_for_review_main/.idea/page_object_model-for-review-main.iml" filepath="$PROJECT_DIR$/../../StepikReview/page_object_model_for_review_main/.idea/page_object_model-for-review-main.iml" />
     </modules>
   </component>
 </project>
