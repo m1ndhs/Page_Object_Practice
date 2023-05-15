@@ -15,3 +15,7 @@ class ProductPageLocators():
     ADD_TO_CART_BUTTON = (By.CSS_SELECTOR, "button.btn.btn-lg.btn-primary.btn-add-to-basket")
     PRICE = (By.CSS_SELECTOR, "div.col-sm-6.product_main > p.price_color")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alertinner")
+class BasketPageLocators():
+    EMPTY_BASKET = (By.ID, "content_inner")
+    BASKET_IS_NOT_EMPTY = (By.CLASS_NAME, "basket-title")
+    BASKET_IS_EMPTY_TEXT = (By.CSS_SELECTOR, "#content_inner > p")

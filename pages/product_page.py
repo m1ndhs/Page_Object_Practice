@@ -22,8 +22,8 @@ class ProductPage(BasePage):
         add_to_basket_button = self.browser.find_element(*ProductPageLocators.ADD_TO_CART_BUTTON)
         add_to_basket_button.click()
 
-    def should_not_be_presented_succes_message(self):
-        assert self.is_not_element_present()(*ProductPageLocators.SUCCESS_MESSAGE), \
+    def should_not_be_presented_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
                 "Success message is not presented, but should not be"
 
     def should_see_as_dissapearing_message(self):
